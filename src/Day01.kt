@@ -1,6 +1,6 @@
 fun main() {
-    fun part1(input: List<String>): Int {
-        return input.size
+    fun part1(input: List<String>): List<String> {
+        return input
     }
 
     fun part2(input: List<String>): Int {
