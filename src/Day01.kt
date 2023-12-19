@@ -22,6 +22,13 @@ fun main() {
     }
 
     fun part2(input: List<String>): Int {
+        for (linea in input){
+            val numeros = linea.filter {it.isDigit() || it in setOf("o", "n", "e", "t", "w", "h", "f", "u", "r", "v", "s", "x")}
+        }
+
+        for (linea in input.reversed()){
+
+        }
         return input.size
     }
 
